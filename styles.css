@@ -50,6 +50,12 @@ li {
   list-style-type: none;
 }
 
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .nav__link {
   margin-left: 16px;
   text-decoration: none;
@@ -142,6 +148,9 @@ button:active {
   margin: 0 auto;
 }
 
+.no__cursor {
+  cursor: not-allowed;
+}
 
 /* Highlights */
 
@@ -273,4 +282,20 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #242424;
+}
+
+.footer__logo--img {
+  width: 160px;
+  filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright {
+  color: #fff;
 }
