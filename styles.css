@@ -205,6 +205,13 @@ header {
   z-index: 50;
 }
 
+.header__img--wrapper img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  transform: translateX(80px);
+}
+
 .container {
   padding: 56px 0;
 }
@@ -313,6 +320,7 @@ header {
   max-height: 380px;
   transition: all 300ms ease;
   cursor: not-allowed;
+  object-fit: contain;
 }
 
 .book__img--wrapper {
